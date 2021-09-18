@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+nav {
+  background-color: #F1A536;
+  display: flex;
+  padding: 5px;
+  border-bottom: #FFFFFF 5px solid;
+  justify-content: space-around;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav div a {
+  font-size: 1.5vw;
+  margin: 20px;
+  text-decoration: none;
+  color: #20170A;
+  font-weight: 550;
+}
+
+main .hero {
+  height: 65vh;
+  overflow: hidden;
+}
+main .hero h2 {
+  background-color: #FFFFFF;
+  position: absolute;
+  padding: 20px;
+  top: 60%;
+  font-size: 3vw;
+  margin-left: 25vw;
+}
+main .row {
+  padding: 70px 150px;
+}
+main .row h2 {
+  font-size: 45px;
+  font-weight: 1000;
+}
+main .row p {
+  font-size: 36px;
+}
+main .row .imgrow {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .row .imgrow div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+main .row .imgrow div div {
+  height: 333px;
+  overflow: hidden;
+}
+main .row .imgrow div p {
+  font-size: 25px;
+  font-weight: bold;
+}
+main .row .imgrow div .smaller {
+  height: 250px;
+}
+main .row:nth-child(odd) {
+  background-color: #DADFEA;
+}
+main .container {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .container h1 {
+  font-size: 75px;
+  margin-bottom: 5px;
+}
+main .container div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+main .container div i {
+  font-style: normal;
+  color: #DF0000;
+}
+main .container div button {
+  padding: 20px 50px;
+  border-radius: 200px;
+  background-color: #DF0000;
+  color: #FFFFFF;
+  border: none;
+  font-size: 25px;
+}
+main .container div b {
+  font-size: 75px;
+}
+main .container div div {
+  display: flex;
+  flex-direction: column;
+}
+main .container div div ul, main .container div div ol {
+  margin-top: -20px;
+  width: 800px;
+}
+main .container div div ul b, main .container div div ol b {
+  font-size: 40px;
+}
+main .container div div ul li, main .container div div ol li {
+  margin-bottom: 30px;
+}
+main .container div:nth-child(4) {
+  background-color: #DADFEA;
+  color: #575656;
+  width: 80%;
+  margin-top: 30px;
+}
+main .container div:nth-child(4) div {
+  width: 70%;
+  text-align: center;
+}
+main .container div:nth-child(4) div p b {
+  font-size: 35px;
+  margin: 20px;
+  width: 50px;
+}
+
+footer {
+  background-color: #F1A536;
+  padding: 45px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+.border {
+  border: #DADFEA 10px solid;
+}
+
+.moveUp {
+  margin-top: -200px;
+}
+
+.moveUp2 {
+  margin-top: -500px;
+}
+
+.grey {
+  background-color: #DADFEA;
+}
+
+.prep p {
+  display: inline;
+  margin-right: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
